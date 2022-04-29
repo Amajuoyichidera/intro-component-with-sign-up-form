@@ -64,3 +64,30 @@ span {
     padding-top: 70px;
     margin-left: 70px;
 }
+@media screen and (max-width:1000px){
+    body {
+        width: 500px;
+    }
+    h1 {
+       padding-top: 10px;
+       padding-bottom: 10px;
+       margin: 0 auto;
+   }
+   .btn1 {
+       width: 300px;
+       padding-left: 10px;
+       padding-right: 10px;
+   }
+   .btn2 {
+       width: 240px;
+   }
+   p {
+       word-spacing: 2px;
+   }
+   .con {
+       position: absolute;
+       padding-top: 230px;
+       width: 300px;
+       padding-bottom: 20px;
+   }
+}
